@@ -1,7 +1,7 @@
 /** @format */
 
-function add(a: number, b: number): any {
-  return a + b;
+function add(a: number, b: number) {
+  return;
 }
 
 interface User {
