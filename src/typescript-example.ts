@@ -1,7 +1,7 @@
 /** @format */
 
-function add(a: number, b: number) {
-  return;
+function add(a: number, b: number): number {
+  return a + b;
 }
 
 interface User {
@@ -18,6 +18,8 @@ function getFullName(user: User): string {
   return [first, middle, last].filter(Boolean).join('');
 }
 
-add(1, 'two');
+add(1, 2);
 
 getFullName({name: {first: 'Joe', middle: 'Bud', last: 'Matthews'}});
+
+export default {};

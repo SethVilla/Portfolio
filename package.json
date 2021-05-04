@@ -19,9 +19,9 @@
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "check-types": "tsc",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
-    "format": "npm run prettier -- --write",
-    "check-format": "npm run prettier -- --list-different",
-    "validate": "npm run check-types && npm run check-format && npm run lint && npm run build"
+    "format": "yarn run prettier -- --write",
+    "check-format": "yarn run prettier -- --list-different",
+    "validate": "yarn-run-all --parallel check-types check-format lint build"
   },
   "browserslist": {
     "production": [
@@ -51,7 +51,9 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "eslint-plugin-testing-library": "^4.1.2",
     "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "yarn-run-all": "^3.1.1"
   }
 }
