@@ -8,7 +8,7 @@ function App() {
     fetch('/api')
       .then(res => res.json())
       .then(data => setData(data.message))
-      .catch(err => console.log(err));
+      .catch(err => console.log(error));
     console.log(process.env.REACT_APP_API_KEY);
   }, []);
 
