@@ -3,7 +3,7 @@ import 'dotenv/config.js';
 
 const PORT = process.env.PORT || 3001;
 
-console.log('hello worlds');
+console.log(red);
 
 console.log(process.env.MY_SECRET);
 

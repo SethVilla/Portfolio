@@ -15,8 +15,8 @@
   },
   "proxy": "http://localhost:3001",
   "scripts": {
-    "start": "env-cmd -e dev react-scripts start",
-    "start-prod": "env-cmd -e prod react-scripts start",
+    "dev": "env-cmd -e dev react-scripts start",
+    "prod": "env-cmd -e prod react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "test-watch": "react-scripts test",

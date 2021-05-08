@@ -3,7 +3,6 @@ import './App.css';
 
 function App() {
   const [data, setData] = React.useState(null);
-  console.log(red);
   React.useEffect(() => {
     fetch('/api')
       .then(res => res.json())
