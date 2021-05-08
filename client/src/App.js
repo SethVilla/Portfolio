@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  const [data, set
-    Data] = React.useState(null);
+  const [data, setData] = React.useState(null);
 
   React.useEffect(() => {
     fetch('/api')
