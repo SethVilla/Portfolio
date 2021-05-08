@@ -2,7 +2,8 @@
   "extends": ["eslint:recommended", "plugin:node/recommended"],
   "parserOptions": {
     // Only ESLint 6.2.0 and later support ES2020.
-    "ecmaVersion": 2020
+    "ecmaVersion": 2020,
+    "sourceType": "module"
   },
   "rules": {
     "node/exports-style": ["error", "module.exports"],
@@ -13,10 +14,20 @@
     "node/prefer-global/url-search-params": ["error", "always"],
     "node/prefer-global/url": ["error", "always"],
     "node/prefer-promises/dns": "error",
-    "node/prefer-promises/fs": "error"
+    "node/prefer-promises/fs": "error",
+    "node/no-unsupported-features/es-syntax": [
+      "error",
+      {"ignores": ["modules"]}
+    ]
   },
   "env": {
-    "jest": true
+    "jest": true,
+    "node": true
+  },
+  "settings": {
+    "node": {
+      "tryExtensions": [".js", ".json", ".node", ".ts", ".d.ts"]
+    }
   },
   "overrides": [
     {
