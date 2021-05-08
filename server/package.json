@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "portfolio base Artesano",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:SethVilla/Portfolio.git",
+  "author": "Seth Villavicencio",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
