@@ -18,7 +18,8 @@
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
     "format": "yarn run prettier --write",
     "check-format": "yarn run prettier --list-different",
-    "validate": "npm-run-all --parallel check-types check-format lint"
+    "validate": "npm-run-all --parallel check-types check-format lint",
+    "prepare": "cd .. && husky install server/.husky"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.0",
