@@ -23,7 +23,8 @@
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
     "format": "yarn run prettier --write",
     "check-format": "yarn run prettier --list-different",
-    "validate": "npm-run-all --parallel check-types test check-format lint build"
+    "validate": "npm-run-all --parallel check-types test check-format lint build",
+    "prepare": "cd .. && husky install client/.husky"
   },
   "browserslist": {
     "production": [

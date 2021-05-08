@@ -4,9 +4,6 @@ import './App.css';
 function App() {
   const [data, setData] = React.useState(null);
 
-  console.log('h
-  i');
-
   React.useEffect(() => {
     fetch('/api')
       .then(res => res.json())
