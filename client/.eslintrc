@@ -29,7 +29,8 @@
     "browser": true,
     "jest/globals": true,
     "es6": true,
-    "commonjs": true
+    "commonjs": true,
+    "node": true
   },
   "settings": {
     "react": {

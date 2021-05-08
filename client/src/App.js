@@ -9,6 +9,7 @@ function App() {
       .then(res => res.json())
       .then(data => setData(data.message))
       .catch(err => console.log(err));
+    console.log(process.env.REACT_APP_API_KEY);
   }, []);
 
   return (

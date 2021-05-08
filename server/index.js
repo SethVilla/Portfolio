@@ -1,6 +1,11 @@
 import express from 'express';
+import 'dotenv/config.js';
 
 const PORT = process.env.PORT || 3001;
+
+console.log('Hello Node.js project.');
+
+console.log(process.env.MY_SECRET);
 
 const app = express();
 
