@@ -16,14 +16,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
+    "test-watch": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "check-types": "tsc",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
     "format": "yarn run prettier --write",
     "check-format": "yarn run prettier --list-different",
-    "validate": "npm-run-all --parallel check-types test check-format lint build",
+    "validate": "npm-run-all --parallel check-types check-format lint test build",
     "prepare": "cd .. && husky install client/.husky"
   },
   "browserslist": {

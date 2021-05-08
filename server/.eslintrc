@@ -15,6 +15,9 @@
     "node/prefer-promises/dns": "error",
     "node/prefer-promises/fs": "error"
   },
+  "env": {
+    "jest": true
+  },
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],

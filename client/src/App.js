@@ -9,7 +9,6 @@ function App() {
       .then(res => res.json())
       .then(data => setData(data.message))
       .catch(err => console.log(err));
-    console.log(data);
   }, []);
 
   return (
