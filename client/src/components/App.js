@@ -1,5 +1,7 @@
 import React from 'react';
-import './App.css';
+import {ThemeProvider} from '@material-ui/styles';
+import {Button} from '@material-ui/core';
+import theme from '../theme/theme';
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -12,11 +14,12 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
       <header className="App-header">
         <p>{!data ? 'Loading...' : data}</p>
+        <Button variant="contained">click me</Button>
       </header>
-    </div>
+    </ThemeProvider>
   );
 }
 
