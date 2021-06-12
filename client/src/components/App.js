@@ -2,6 +2,7 @@ import React from 'react';
 import {ThemeProvider} from '@material-ui/styles';
 import {Button} from '@material-ui/core';
 import theme from '../theme/theme';
+import './App.css';
 
 function App() {
   const [data, setData] = React.useState(null);

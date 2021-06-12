@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  /* font-family: arialic_hollowregular; */
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arialic_hollowregular';
+  src: url('../css/fonts/ariah/ariah___-webfont.woff2') format('woff2'),
+    url('../css/fonts/ariah/ariah___-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'elephantoutline';
+  src: url('../css/fonts/elephant/outline/elephant-outline-webfont.woff2')
+      format('woff2'),
+    url('../css/fonts/elephant/outline/elephant-outline-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'elephantregular';
+  src: url('../css/fonts/elephant/regular/elephant.regular-webfont.woff2')
+      format('woff2'),
+    url('../css/fonts/elephant/regular/elephant.regular-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Neue Haas Grotesk Display Pro 45 Light
+
+font-family: neue-haas-grotesk-display, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Neue Haas Grotesk Display Pro 46 Light Italic
+
+font-family: neue-haas-grotesk-display, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Neue Haas Grotesk Display Pro 75 Bold
+
+font-family: neue-haas-grotesk-display, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Neue Haas Grotesk Display Pro 76 Bold Italic
+
+font-family: neue-haas-grotesk-display, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Neue Haas Grotesk Text Pro 55 Roman
+
+font-family: neue-haas-grotesk-text, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Neue Haas Grotesk Text Pro 56 Italic
+
+font-family: neue-haas-grotesk-text, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Neue Haas Grotesk Text Pro 75 Bold
+
+font-family: neue-haas-grotesk-text, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Neue Haas Grotesk Text Pro 76 Bold Italic
+
+font-family: neue-haas-grotesk-text, sans-serif;
+
+font-weight: 700;
+
+font-style: italic; */

@@ -18,6 +18,8 @@
   "scripts": {
     "dev": "env-cmd -e dev nodemon --exec babel-node index.js",
     "prod": "env-cmd -e prod nodemon --exec babel-node index.js",
+    "client": "cd ../client && yarn dev",
+    "app": "npm-run-all --parallel dev client",
     "test": "jest",
     "test-watch": "jest --watchAll",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",

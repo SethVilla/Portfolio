@@ -19,6 +19,8 @@
   "scripts": {
     "dev": "env-cmd -e dev react-scripts start",
     "prod": "env-cmd -e prod react-scripts start",
+    "server": "cd ../server && yarn dev",
+    "app": "npm-run-all --parallel dev server",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
     "test-watch": "react-scripts test",
