@@ -1,6 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: InterVariable, sans-serif;
+  --color-primary: oklch(0.585 0.208 15.919);
+  --color-secondary: oklch(37.62% 0.1124 301.92);
+  /*#9896da*/
+}
 
 :root {
   --background: #ffffff;
@@ -12,6 +17,11 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
